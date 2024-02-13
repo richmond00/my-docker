@@ -1,0 +1,5 @@
+FROM nginx:latest
+
+CMD echo "Hello world!"
+
+# docker build -f Dockerfile.prod . -t custom:1

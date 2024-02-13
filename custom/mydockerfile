@@ -1,0 +1,6 @@
+FROM nginx:latest
+
+CMD echo "Hello world!"
+
+# docker build --file="mydockerfile" . -t custom:1
+# docker buil https://github.com/madflojo/automatron.git -t automatron:1
