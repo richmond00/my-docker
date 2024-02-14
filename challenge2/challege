@@ -1,0 +1,9 @@
+Goal: create a web server
+
+1. Use an CentOS base image
+2. Install the web server: yum -y install httpd
+3. Copy the tar file and extract in the relevant path: /var/www/html
+4. Start the web server using: /usr/sbin/httpd
+5. Pass in parameters: "-D" and "FOREGROUND"
+6. Call the image: challenge:2
+7. Runs port 80 is open
